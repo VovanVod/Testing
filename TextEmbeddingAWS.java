@@ -6,7 +6,7 @@ import software.amazon.awssdk.profiles.ProfileFile;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.bedrockruntime.BedrockRuntimeClient;
 
-public class TextEmbedingAWS {
+public class TextEmbeddingAWS {
     public static void main(String[] args) {
         ProfileCredentialsProvider credentialsProvider = ProfileCredentialsProvider.builder()
             .profileFile(ProfileFile.builder().content(Paths.get("D:/JavaTest/credentials")).type(ProfileFile.Type.CREDENTIALS).build())
